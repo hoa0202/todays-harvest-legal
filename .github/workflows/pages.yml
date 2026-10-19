@@ -8,6 +8,7 @@ on:
       - 'privacy.html'
       - 'support.html'
       - 'support-pages.css'
+      - 'adfit/ios-v1.json'
       - '.nojekyll'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
