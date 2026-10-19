@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "platform": "ios",
+  "bundleId": "com.creativeforoneself2.todaysharvest",
+  "appVersions": [
+    "0.1.0"
+  ],
+  "enabled": false,
+  "unitId": "",
+  "placement": "top",
+  "adSize": "320x50",
+  "expiresAt": null
+}
