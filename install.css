@@ -1,0 +1,16 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; background: #f5f4e9; color: #263c30; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; padding: max(32px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left)); min-height: 100vh; display: grid; place-items: center; word-break: keep-all; overflow-wrap: anywhere; }
+.install-card { width: min(100%, 480px); padding: clamp(24px, 6vw, 44px); background: #fffef9; border: 1px solid #dde2d4; border-radius: 26px; text-align: center; }
+.fruit { font-size: 64px; line-height: 1.2; margin: 8px 0 24px; }
+.eyebrow { color: #69766a; font-size: 13px; margin: 0; }
+h1 { font-size: clamp(29px, 8vw, 38px); letter-spacing: -.04em; margin: 10px 0 16px; }
+.description { font-size: 16px; line-height: 1.8; margin: 0; }
+.store-section { margin-top: 28px; padding-top: 20px; border-top: 1px solid #dde2d4; }
+#store-status { font-size: 14px; line-height: 1.7; color: #69766a; margin: 0 0 18px; }
+a { color: #2e5540; text-underline-offset: .2em; }
+.store-link { display: block; padding: 16px 12px; border-radius: 14px; color: #fffef9; background: #2e5540; font-size: 17px; font-weight: 700; text-decoration: none; }
+.store-link:hover { background: #234532; }
+a:focus-visible { outline: 3px solid #769558; outline-offset: 5px; }
+footer { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 20px; margin-top: 30px; font-size: 12px; }
