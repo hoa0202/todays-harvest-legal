@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'install.html'
+      - 'install.js'
+      - 'install.css'
+      - 'store-config.js'
       - 'terms*.html'
       - 'privacy.html'
       - 'support.html'
