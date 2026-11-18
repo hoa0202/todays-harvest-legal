@@ -8,7 +8,7 @@
   return Object.freeze({
     // Confirmed against the official Apple listing on 2026-10-26.
     ios: 'https://apps.apple.com/kr/app/id6824569485',
-    // Leave empty until an actual Google Play listing is approved and verified.
-    android: ''
+    // Google Play public listing verified in Korea on 2026-11-18.
+    android: 'https://play.google.com/store/apps/details?id=com.creativeforoneself2.todaysharvest'
   });
 });
